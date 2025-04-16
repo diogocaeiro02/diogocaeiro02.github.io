@@ -12,7 +12,7 @@ body {
 }
 
 .card {
-  background-color: rgb(58, 255, 137);
+  background-color: white;
   padding: 40px;
   border-radius: 20px;
   box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
@@ -49,11 +49,11 @@ p {
 .links a {
   margin: 0 10px;
   text-decoration: none;
-  color: rgb(0, 22, 147);
+  color: #0077cc;
   font-weight: bold;
   transition: color 0.3s ease;
 }
 
 .links a:hover {
-  color: rgb(255, 0, 0);
+  color: #004488;
 }
