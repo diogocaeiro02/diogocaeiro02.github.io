@@ -1,9 +1,7 @@
 body {
   margin: 0;
-  padding: 0;
   font-family: Arial, sans-serif;
-  background: #f4f4f4;
-  color: #333;
+  background-color: #f3f3f3;
 }
 
 .container {
@@ -13,13 +11,14 @@ body {
   height: 100vh;
 }
 
-.profile {
-  text-align: center;
-  background: white;
+.card {
+  background-color: white;
   padding: 40px;
-  border-radius: 12px;
-  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  border-radius: 20px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+  text-align: center;
   max-width: 400px;
+  width: 90%;
 }
 
 .profile-pic {
@@ -31,25 +30,30 @@ body {
 }
 
 h1 {
-  margin: 10px 0;
+  margin: 0;
   font-size: 26px;
+  color: #333;
 }
 
 h2 {
-  margin: 0 0 10px;
+  margin-top: 5px;
   font-size: 18px;
-  color: #777;
+  color: #666;
+}
+
+p {
+  color: #555;
+  margin: 20px 0;
 }
 
 .links a {
-  display: inline-block;
-  margin: 10px;
+  margin: 0 10px;
   text-decoration: none;
-  color: #0066cc;
+  color: #0077cc;
   font-weight: bold;
   transition: color 0.3s ease;
 }
 
 .links a:hover {
-  color: #003366;
+  color: #004488;
 }
