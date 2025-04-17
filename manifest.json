@@ -1,25 +1,21 @@
 {
   "short_name": "Portfolio | Diogo Caeiro",
-  "name": "Create React App Sample",
+  "name": "Portfolio of Diogo Caeiro",
+  "description": "A portfolio showcasing my projects and experience",
+  "version": "1.0.0",
+  "author": "Diogo Caeiro",
   "icons": [
     {
-      "src": "dc_icon.png",
+      "src": "./assets/favicon.ico",
       "sizes": "64x64 32x32 24x24 16x16",
       "type": "image/x-icon"
-    },
-    {
-      "src": "logo192.png",
-      "type": "image/png",
-      "sizes": "192x192"
-    },
-    {
-      "src": "logo512.png",
-      "type": "image/png",
-      "sizes": "512x512"
     }
   ],
   "start_url": ".",
   "display": "standalone",
   "theme_color": "#000000",
-  "background_color": "#ffffff"
+  "background_color": "#ffffff",
+  "orientation": "portrait",
+  "scope": "/",
+  "lang": "en"
 }
