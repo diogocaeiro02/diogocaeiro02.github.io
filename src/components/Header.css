@@ -1,73 +1,35 @@
-/* HEADER STYLES */
 .header {
-  height: auto;
-  background-image: url("/Users/diogocaeiro/Development/git/diogocaeiro.pt/public/assets/background.jpg");
-  background-size: cover;
-  background-position: center;
-  position: relative;
-  padding: 8rem 2rem 4rem;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin: 0;
-  z-index: 10;
-}
-
-/* Optional: For darker overlay effect */
-.header-overlay {
-  background-color: rgba(0, 0, 0, 0.6);
-  position: absolute;
-  top: 0;
-  left: 0;
   width: 100%;
-  height: 100%;
-  z-index: 1;
+  background-color: #ffffff;
+  padding: 1rem 2rem;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+  position: sticky;
+  top: 0;
+  z-index: 1000;
 }
 
-.header-content {
-  position: relative;
-  z-index: 1;
-  color: white;
-  text-align: center;
-  max-width: 1000px;
-  padding: 2rem;
+.header-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
-.header-content h1 {
-  font-size: 2.5rem;
-  margin-bottom: 1rem;
+.logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #333;
 }
 
-.header-content p {
-  font-size: 1.2rem;
-  font-style: italic;
+.nav a {
+  margin-left: 1.5rem;
+  color: #333;
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.2s ease-in-out;
 }
 
-/* RESPONSIVE STYLES */
-@media (max-width: 768px) {
-  .header {
-    padding: 6rem 1rem 2rem;
-  }
-
-  .header-content h1 {
-    font-size: 2rem;
-  }
-
-  .header-content p {
-    font-size: 1rem;
-  }
-}
-
-@media (max-width: 480px) {
-  .header {
-    padding: 4rem 1rem;
-  }
-
-  .header-content h1 {
-    font-size: 1.6rem;
-  }
-
-  .header-content p {
-    font-size: 0.95rem;
-  }
+.nav a:hover {
+  color: #007bff;
 }

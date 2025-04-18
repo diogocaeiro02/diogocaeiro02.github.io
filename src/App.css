@@ -1,15 +1,13 @@
+/* Reset and base styles */
 body,
 html,
 #root {
   margin: 0;
   padding: 0;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  background-color: #0d1117;
+  background-color: #f4f4f4;
   color: #333;
   scroll-behavior: smooth;
-  height: 100%;
-  width: 100%;
-  overflow-x: hidden; /* Prevent horizontal scroll */
 }
 
 /* App container */
@@ -17,7 +15,6 @@ html,
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 100%;
 }
 
 /* Main content */
@@ -48,46 +45,4 @@ a {
 
 a:hover {
   text-decoration: underline;
-}
-
-/* === Futuristic Scrollbar Styles (Chrome, Edge, Safari) === */
-::-webkit-scrollbar {
-  width: 12px;
-}
-
-::-webkit-scrollbar-track {
-  background: #0d1117; /* dark background for track */
-  border-radius: 10px;
-}
-
-::-webkit-scrollbar-thumb {
-  background: linear-gradient(180deg, #0ff 0%, rgba(0, 247, 255, 0.3) 100%);
-  border-radius: 10px;
-  border: 2px solid #0d1117;
-  transition: background 0.3s ease;
-}
-
-::-webkit-scrollbar-thumb:hover {
-  background: linear-gradient(180deg, #00f6ff 0%, #0ff 100%);
-}
-
-/* Optional: smooth scrolling behavior */
-html {
-  scroll-behavior: smooth;
-}
-
-/* === Firefox Scrollbar === */
-* {
-  scrollbar-width: thin;
-  scrollbar-color: #00f6ff #0d1117;
-}
-
-::-webkit-scrollbar-thumb {
-  box-shadow: 0 0 8px #0ff;
-}
-
-@media (max-width: 768px) {
-  ::-webkit-scrollbar {
-    width: 8px;
-  }
 }
