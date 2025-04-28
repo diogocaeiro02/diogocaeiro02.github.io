@@ -12,19 +12,27 @@ export default function Navbar() {
         </div>
 
         <div className={`navbar-links ${isOpen ? "open" : ""}`}>
-          <a href="#about">About</a>
-          <a href="#projects">Projects</a>
-          <a href="#experience">Experience</a>
-          <a href="#contact">Contact</a>
+          <a href="#about" onClick={() => setIsOpen(false)}>
+            About
+          </a>
+          <a href="#projects" onClick={() => setIsOpen(false)}>
+            Projects
+          </a>
+          <a href="#experience" onClick={() => setIsOpen(false)}>
+            Experience
+          </a>
+          <a href="#contact" onClick={() => setIsOpen(false)}>
+            Contact
+          </a>
         </div>
 
         <button
           className={`burger ${isOpen ? "open" : ""}`}
           onClick={() => setIsOpen(!isOpen)}
         >
-          <span />
-          <span />
-          <span />
+          <span className="bg1"></span>
+          <span className="bg2"></span>
+          <span className="bg3"></span>
         </button>
       </div>
     </header>
