@@ -5,7 +5,6 @@ export default function Experience() {
   return (
     <section className="about-section">
       <h2 className="section-title">Experience</h2>
-      <p>Short paragraph about yourself.</p>
     </section>
   );
 }
