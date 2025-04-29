@@ -1,30 +1,122 @@
-/* src/components/About.css */
-
 .about-section {
-  background: transparent;
   padding: 6rem 2rem;
-  color: #ffffff;
-  min-height: 100vh;
+  background: transparent;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.about-container {
+  display: flex;
+  max-width: 1200px;
+  width: 100%;
+  gap: 3rem;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.about-left {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.about-left h2 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+/* === Horizontal layout for actions === */
+.about-actions {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+/* === CV Button === */
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.7rem 1.5rem;
+  font-size: 0.95rem;
+  border: 2px solid #00d2ff;
+  border-radius: 30px;
+  color: #00d2ff;
+  background: transparent;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  min-width: 140px;
+}
+
+.btn:hover {
+  background-color: #00d2ff;
+  color: #fff;
+  box-shadow: 0 0 10px #00d2ff;
+}
+
+/* === Social Buttons === */
+.social-links {
+  display: flex;
+  gap: 1rem;
+}
+
+.social-links a {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 48px;
+  height: 48px;
+  border: 2px solid #00d2ff;
+  border-radius: 50%;
+  font-size: 1.2rem;
+  color: #00d2ff;
+  background: transparent;
+  transition: all 0.3s ease;
+}
+
+.social-links a:hover {
+  background-color: #00d2ff;
+  color: #fff;
+  box-shadow: 0 0 10px #00d2ff;
+}
+
+.about-right {
+  flex: 1;
   display: flex;
   align-items: center;
 }
 
-.container {
-  max-width: 900px;
-  margin: 0 auto;
-  text-align: center;
-}
-
-.section-title {
-  font-size: 3rem;
-  margin-bottom: 2rem;
-  background: linear-gradient(90deg, #00d2ff, #3a7bd5);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
-
-.about-text {
-  font-size: 1.25rem;
+.about-right p {
+  font-size: 1.2rem;
   line-height: 1.8;
-  margin-bottom: 1.5rem;
+  max-width: 500px;
+  color: #ccc;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .about-container {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .about-actions {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+
+  .about-left,
+  .about-right {
+    align-items: center;
+  }
+
+  .about-left h2 {
+    text-align: center;
+  }
 }
