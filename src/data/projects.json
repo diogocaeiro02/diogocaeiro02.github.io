@@ -1,14 +1,23 @@
 [
   {
-    "title": "Decentralized Social Media",
-    "description": "A social platform on the Ethereum blockchain using React, Hardhat, and Solidity.",
-    "tech": ["React", "Solidity", "Hardhat"],
-    "link": "https://github.com/yourusername/decentralized-sm"
+    "id": "blockchain-social",
+    "title": "Blockchain Social Media",
+    "description": "A decentralized social media platform on Ethereum blockchain.",
+    "image": "/assets/blockchain-social.png",
+    "details": "Full explanation about the tech stack, challenges and results."
   },
   {
-    "title": "Rent Storage",
-    "description": "Storage management platform built with HTML, CSS, JS.",
-    "tech": ["HTML", "CSS", "JavaScript"],
-    "link": "https://github.com/yourusername/rent-storage"
+    "id": "rent-storage-website",
+    "title": "Rent Storage Website",
+    "description": "A modern static website for a storage rental service, built for a real client.",
+    "image": "/assets/rent-storage-preview.png",
+    "details": "Tech: HTML, CSS, JavaScript. Responsive layout with mobile-first design, interactive gallery, lightbox, testimonials carousel, and custom UI enhancements."
+  },
+  {
+    "id": "rent-storage-website",
+    "title": "Rent Storage Website",
+    "description": "A modern static website for a storage rental service, built for a real client.",
+    "image": "/assets/rent-storage-preview.png",
+    "details": "Tech: HTML, CSS, JavaScript. Responsive layout with mobile-first design, interactive gallery, lightbox, testimonials carousel, and custom UI enhancements."
   }
 ]
