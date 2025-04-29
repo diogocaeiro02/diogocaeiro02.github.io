@@ -2,10 +2,14 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap");
 
 /* ===== CSS Reset ===== */
-* {
+*,
+*::before,
+*::after {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  border: none;
+  outline: none;
 }
 
 /* ===== Base HTML & Body Styles ===== */
@@ -13,7 +17,7 @@ html,
 body {
   height: 100%;
   font-family: "Poppins", sans-serif;
-  background-color: rgb(10, 10, 10);
+  background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
   color: #ffffff;
   -webkit-font-smoothing: antialiased;
   scroll-behavior: smooth;
@@ -34,6 +38,15 @@ a {
 img {
   max-width: 100%;
   display: block;
+}
+
+/* Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-thumb {
+  background-color: #00d2ff;
+  border-radius: 4px;
 }
 
 /* ===== Root App Element ===== */

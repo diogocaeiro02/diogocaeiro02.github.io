@@ -1,8 +1,8 @@
 /* src/components/About.css */
 
 .about-section {
+  background: transparent;
   padding: 6rem 2rem;
-  background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
   color: #ffffff;
   min-height: 100vh;
   display: flex;

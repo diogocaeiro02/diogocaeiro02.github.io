@@ -5,6 +5,11 @@ export default function Hero() {
   return (
     <section className="hero">
       <div className="hero-content">
+        <img
+          src="/assets/profile.jpg"
+          alt="Diogo Caeiro"
+          className="hero-photo"
+        />
         <h1>
           Hello, I'm <span>Diogo Caeiro</span>
         </h1>

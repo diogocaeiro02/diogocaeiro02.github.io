@@ -1,18 +1,39 @@
 .hero {
+  background: transparent;
   height: 100vh;
-  background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
   display: flex;
   justify-content: center;
   align-items: center;
   text-align: center;
-  color: #fff;
-  position: relative;
-  overflow: hidden;
+  padding: 2rem;
+}
+
+.hero-content {
+  max-width: 600px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  animation: fadeIn 1s ease-in;
+}
+
+.hero-photo {
+  width: 160px;
+  height: 160px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 4px solid #00d2ff;
+  box-shadow: 0 0 20px rgba(0, 210, 255, 0.4);
+  margin-bottom: 1.5rem;
+  transition: transform 0.3s ease;
+}
+
+.hero-photo:hover {
+  transform: scale(1.08);
 }
 
 .hero-content h1 {
-  font-size: 3rem;
-  margin-bottom: 1rem;
+  font-size: 2.8rem;
+  margin-bottom: 0.1rem;
 }
 
 .hero-content h1 span {
@@ -21,14 +42,15 @@
   -webkit-text-fill-color: transparent;
 }
 
-.hero-content p {
-  font-size: 1.3rem;
-  margin-bottom: 2rem;
+.hero-subtitle {
+  font-size: 1.2rem;
   color: #ccc;
+  margin-bottom: 2rem;
 }
 
 .hero-btn {
   padding: 0.8rem 2rem;
+  margin-top: 1rem;
   border: 2px solid #00d2ff;
   color: #00d2ff;
   text-decoration: none;
@@ -40,4 +62,32 @@
   background-color: #00d2ff;
   color: #fff;
   box-shadow: 0 0 15px #00d2ff;
+}
+
+/* Fade-in animation */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+  .hero-content h1 {
+    font-size: 2rem;
+  }
+
+  .hero-subtitle {
+    font-size: 1rem;
+  }
+
+  .hero-photo {
+    width: 130px;
+    height: 130px;
+  }
 }
