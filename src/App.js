@@ -22,21 +22,13 @@ function App() {
       <NavBar />
       <ToastContainer position="bottom-right" autoClose={3000} />
       <Routes>
-        <Route
-          path="/"
-          element={
-            <>
-              <Hero />
-              <About />
-              <TechStackSlider />
-              <Projects />
-              <Experience />
-              <Contact />
-              <Route path="*" element={<NotFound />} />
-            </>
-          }
-        />
+        <Route path="/" element={<Hero />} />
+        <Route path="/about" element={<About />} />
+        <Route path="/projects" element={<Projects />} />
+        <Route path="/experience" element={<Experience />} />
+        <Route path="/contact" element={<Contact />} />
         <Route path="/projects/:id" element={<ProjectDetail />} />
+        <Route path="*" element={<NotFound />} />
       </Routes>
       <Footer />
       <ToastContainer
