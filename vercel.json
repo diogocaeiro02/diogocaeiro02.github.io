@@ -1,0 +1,4 @@
+{
+  "rewrites": [{ "source": "/(.*)", "destination": "/" }],
+  "routes": [{ "handle": "filesystem" }, { "src": "/.*", "dest": "/404.html" }]
+}
