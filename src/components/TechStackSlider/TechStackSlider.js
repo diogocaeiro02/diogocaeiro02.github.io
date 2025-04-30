@@ -66,14 +66,13 @@ const techLogos = [
     alt: "Hardhat",
     url: "https://hardhat.org/",
   },
-  // Add more logos as needed
 ];
 
 export default function TechStackSlider() {
   return (
     <section className="tech-slider-section">
-      <h2 className="section-title">Tech Stack</h2>
-      <p className="section-subtitle">Languages & tools I work with daily</p>
+      {/* <h2 className="section-title">Tech Stack</h2>
+      <p className="section-subtitle">Languages & tools I work with daily</p> */}
       <Swiper
         modules={[Autoplay, FreeMode]}
         spaceBetween={20}
