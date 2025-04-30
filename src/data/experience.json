@@ -1,0 +1,39 @@
+[
+  {
+    "company": "Sunderland AFC",
+    "location": "United Kingdom",
+    "title": "Supervisor",
+    "date": "Oct 2021 – Present",
+    "tasks": [
+      "Oversee bar operations and ensure smooth service",
+      "Manage inventory and minimize waste",
+      "Resolve customer complaints and maintain satisfaction",
+      "Enforce safety and service policies",
+      "Train and lead staff to ensure quality"
+    ]
+  },
+  {
+    "company": "Degustação Alentejana",
+    "location": "Portugal",
+    "title": "Worker",
+    "date": "Jul 2017 – Present",
+    "tasks": [
+      "Evaluate product stock quality",
+      "Ensure a clean and hygienic kitchen",
+      "Sanitize and organize utensils",
+      "Follow instructions to ensure service efficiency",
+      "Receive and store supplies"
+    ]
+  },
+  {
+    "company": "VirtualNauta, LDA",
+    "location": "Portugal",
+    "title": "Intern Developer",
+    "date": "May 2020 – Jun 2020",
+    "tasks": [
+      "Developed Python and VB.NET applications",
+      "Created web scraping tools with Selenium",
+      "Built systems connected to SQL databases"
+    ]
+  }
+]
