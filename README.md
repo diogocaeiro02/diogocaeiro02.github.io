@@ -10,7 +10,7 @@ Welcome to my personal developer portfolio built with React. This project showca
 
 ## 📸 Preview
 
-![Portfolio Preview](public/assets/preview.png)
+![Portfolio Preview](public/assets/preview2.png)
 
 ---
 
