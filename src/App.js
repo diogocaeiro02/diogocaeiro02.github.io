@@ -1,5 +1,8 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
+import { ToastContainer } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
+
 // Components
 import NavBar from "./components/NavBar/Navbar";
 import Hero from "./components/Hero/Hero";
@@ -15,6 +18,7 @@ function App() {
   return (
     <Router>
       <NavBar />
+      <ToastContainer position="bottom-right" autoClose={3000} />
       <Routes>
         <Route
           path="/"
@@ -32,6 +36,17 @@ function App() {
         <Route path="/projects/:id" element={<ProjectDetail />} />
       </Routes>
       <Footer />
+      <ToastContainer
+        position="bottom-right"
+        autoClose={3000}
+        hideProgressBar={false}
+        newestOnTop={false}
+        closeOnClick
+        pauseOnFocusLoss
+        draggable
+        pauseOnHover
+        theme="dark"
+      />
     </Router>
   );
 }
