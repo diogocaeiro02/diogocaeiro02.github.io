@@ -8,7 +8,9 @@ export default function Navbar() {
     <header className="navbar">
       <div className="navbar-container">
         <div className="navbar-logo">
-          Diogo<span className="glow">.</span>
+          <a href="#hero">
+            Diogo<span className="glow">.</span>
+          </a>
         </div>
 
         <div className={`navbar-links ${isOpen ? "open" : ""}`}>

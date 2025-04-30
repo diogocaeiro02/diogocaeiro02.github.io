@@ -16,32 +16,31 @@ import Footer from "./components/Footer/Footer";
 
 import NotFound from "./components/NotFound/NotFound";
 
+function HomePage() {
+  return (
+    <>
+      <Hero />
+      <About />
+      <TechStackSlider />
+      <Projects />
+      <Experience />
+      <Contact />
+    </>
+  );
+}
+
 function App() {
   return (
     <Router>
       <NavBar />
       <ToastContainer position="bottom-right" autoClose={3000} />
       <Routes>
-        <Route path="/" element={<Hero />} />
-        <Route path="/about" element={<About />} />
-        <Route path="/projects" element={<Projects />} />
-        <Route path="/experience" element={<Experience />} />
-        <Route path="/contact" element={<Contact />} />
+        <Route path="/" element={<HomePage />} />
         <Route path="/projects/:id" element={<ProjectDetail />} />
         <Route path="*" element={<NotFound />} />
       </Routes>
+
       <Footer />
-      <ToastContainer
-        position="bottom-right"
-        autoClose={3000}
-        hideProgressBar={false}
-        newestOnTop={false}
-        closeOnClick
-        pauseOnFocusLoss
-        draggable
-        pauseOnHover
-        theme="dark"
-      />
     </Router>
   );
 }
