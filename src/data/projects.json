@@ -14,9 +14,9 @@
     "details": "Tech: HTML, CSS, JavaScript. Responsive layout with mobile-first design, interactive gallery, lightbox, testimonials carousel, and custom UI enhancements."
   },
   {
-    "id": "rent-storage-website",
-    "title": "Rent Storage Website",
-    "description": "A modern static website for a storage rental service, built for a real client.",
+    "id": "catering-website",
+    "title": "Catering Website",
+    "description": "A modern static website for a storage rental service, built for Degustação Alentejana.",
     "image": "/assets/rent-storage-preview.png",
     "details": "Tech: HTML, CSS, JavaScript. Responsive layout with mobile-first design, interactive gallery, lightbox, testimonials carousel, and custom UI enhancements."
   }
