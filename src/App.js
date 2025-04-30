@@ -14,7 +14,7 @@ import Experience from "./components/Experience/Experience";
 import Contact from "./components/Contact/Contact";
 import Footer from "./components/Footer/Footer";
 
-import NotFound from "./components/NotFound";
+import NotFound from "./components/NotFound/NotFound";
 
 function App() {
   return (
