@@ -14,6 +14,8 @@ import Experience from "./components/Experience/Experience";
 import Contact from "./components/Contact/Contact";
 import Footer from "./components/Footer/Footer";
 
+import NotFound from "./components/NotFound";
+
 function App() {
   return (
     <Router>
@@ -30,6 +32,7 @@ function App() {
               <Projects />
               <Experience />
               <Contact />
+              <Route path="*" element={<NotFound />} />
             </>
           }
         />

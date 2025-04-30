@@ -1,0 +1,39 @@
+.notfound-section {
+  height: 100vh;
+  background: radial-gradient(circle, #0a0a0a 40%, #000000 100%);
+  color: #00d2ff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 2rem;
+}
+
+.notfound-section h1 {
+  font-size: 6rem;
+  text-shadow: 0 0 20px rgba(0, 210, 255, 0.6);
+}
+
+.notfound-section p {
+  font-size: 1.5rem;
+  color: #ccc;
+  margin: 1rem 0;
+}
+
+.notfound-section a {
+  margin-top: 1rem;
+  padding: 0.7rem 1.5rem;
+  color: #0a0a0a;
+  background-color: #00d2ff;
+  text-decoration: none;
+  border-radius: 30px;
+  font-weight: bold;
+  transition: 0.3s ease;
+}
+
+.notfound-section a:hover {
+  background-color: #fff;
+  color: #00d2ff;
+  box-shadow: 0 0 10px #00d2ff;
+}
