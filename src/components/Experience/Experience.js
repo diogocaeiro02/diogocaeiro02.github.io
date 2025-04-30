@@ -12,7 +12,7 @@ export default function Experience() {
             key={index}
             className={`timeline-item ${index % 2 === 0 ? "left" : "right"}`}
           >
-            <div className="timeline-content">
+            <div className="timeline-content" data-aos="flip-up">
               <span className="timeline-date">{job.date}</span>
               <h3>
                 {job.title} – {job.company}

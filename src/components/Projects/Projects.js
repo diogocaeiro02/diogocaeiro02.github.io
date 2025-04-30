@@ -16,7 +16,7 @@ import "./Projects.css";
 
 export default function Projects() {
   return (
-    <section id="projects" className="projects-section">
+    <section id="projects" className="projects-section" data-aos="fade-up">
       <h2 className="section-title">Projects</h2>
 
       <Swiper

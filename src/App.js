@@ -3,6 +3,10 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import { ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 
+import AOS from "aos";
+import "aos/dist/aos.css";
+import { useEffect } from "react";
+
 // Components
 import NavBar from "./components/NavBar/Navbar";
 import Hero from "./components/Hero/Hero";
@@ -13,10 +17,15 @@ import ProjectDetail from "./components/Projects/ProjectDetail";
 import Experience from "./components/Experience/Experience";
 import Contact from "./components/Contact/Contact";
 import Footer from "./components/Footer/Footer";
-
 import NotFound from "./components/NotFound/NotFound";
 
 function HomePage() {
+  useEffect(() => {
+    AOS.init({
+      duration: 3000,
+    });
+  }, []);
+
   return (
     <>
       <Hero />

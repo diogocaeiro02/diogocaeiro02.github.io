@@ -4,10 +4,10 @@ import "./About.css";
 
 export default function About() {
   return (
-    <section id="about" className="about-section">
+    <section id="about" className="about-section" data-aos="fade-up">
       <div className="about-container">
         {/* Left Side */}
-        <div className="about-left">
+        <div className="about-left" data-aos="fade-left">
           <h2>About Me</h2>
           <div className="about-actions">
             <a href="/assets/DiogoCaeiroCV.pdf" download className="btn">
@@ -33,7 +33,7 @@ export default function About() {
         </div>
 
         {/* Right Side */}
-        <div className="about-right">
+        <div className="about-right" data-aos="fade-right">
           <p>
             I'm a passionate Blockchain Developer, Designer, and Tech
             Enthusiast. I thrive on building innovative digital experiences that

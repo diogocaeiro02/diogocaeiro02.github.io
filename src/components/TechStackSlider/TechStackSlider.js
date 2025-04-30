@@ -70,13 +70,13 @@ const techLogos = [
 
 export default function TechStackSlider() {
   return (
-    <section className="tech-slider-section">
+    <section className="tech-slider-section" data-aos="fade-up">
       {/* <h2 className="section-title">Tech Stack</h2>
       <p className="section-subtitle">Languages & tools I work with daily</p> */}
       <Swiper
         modules={[Autoplay, FreeMode]}
         spaceBetween={20}
-        slidesPerView={6}
+        slidesPerView={7}
         freeMode={true}
         loop={true}
         autoplay={{
@@ -88,7 +88,7 @@ export default function TechStackSlider() {
           320: { slidesPerView: 2 },
           480: { slidesPerView: 3 },
           768: { slidesPerView: 4 },
-          1024: { slidesPerView: 5 },
+          1024: { slidesPerView: 7 },
         }}
       >
         {techLogos.map((logo, index) => (
