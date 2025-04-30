@@ -1,4 +1,5 @@
 .hero {
+  background-color: #000;
   background: transparent;
   height: 100vh;
   display: flex;
