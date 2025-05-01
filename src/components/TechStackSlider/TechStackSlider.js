@@ -1,97 +1,33 @@
 import React from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay, FreeMode } from "swiper/modules";
+import techLogos from "../../data/techStack.json";
+
 import "swiper/css";
 import "swiper/css/free-mode";
 import "./TechStackSlider.css";
-
-const techLogos = [
-  {
-    src: "./assets/techLogos/react.png",
-    alt: "React",
-    url: "https://reactjs.org",
-  },
-  {
-    src: "/assets/techLogos/javascript.png",
-    alt: "JavaScript",
-    url: "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
-  },
-  {
-    src: "/assets/techLogos/html.png",
-    alt: "HTML5",
-    url: "https://developer.mozilla.org/en-US/docs/Web/HTML",
-  },
-  {
-    src: "/assets/techLogos/css.png",
-    alt: "CSS3",
-    url: "https://developer.mozilla.org/en-US/docs/Web/CSS",
-  },
-  {
-    src: "/assets/techLogos/nodejs.png",
-    alt: "Node.js",
-    url: "https://nodejs.org",
-  },
-  {
-    src: "/assets/techLogos/mongodb.png",
-    alt: "MongoDB",
-    url: "https://www.mongodb.com",
-  },
-  {
-    src: "/assets/techLogos/git.png",
-    alt: "Git",
-    url: "https://git-scm.com",
-  },
-  {
-    src: "/assets/techLogos/github.png",
-    alt: "GitHub",
-    url: "https://github.com",
-  },
-  {
-    src: "/assets/techLogos/bootstrap.png",
-    alt: "Bootstrap",
-    url: "https://getbootstrap.com",
-  },
-  {
-    src: "./assets/techLogos/python.png",
-    alt: "Python",
-    url: "https://www.python.org/",
-  },
-  {
-    src: "./assets/techLogos/solidity.png",
-    alt: "Solidity",
-    url: " https://soliditylang.org/",
-  },
-  {
-    src: "./assets/techLogos/hardhat.png",
-    alt: "Hardhat",
-    url: "https://hardhat.org/",
-  },
-];
 
 export default function TechStackSlider() {
   return (
     <section className="tech-slider-section" data-aos="fade-up">
       {/* <h2 className="section-title">Tech Stack</h2>
       <p className="section-subtitle">Languages & tools I work with daily</p> */}
+
       <Swiper
+        className="tech-swiper"
         modules={[Autoplay, FreeMode]}
-        spaceBetween={20}
-        slidesPerView={7}
+        slidesPerView="auto"
+        spaceBetween={70}
         freeMode={true}
         loop={true}
+        speed={2000}
+        grabCursor={false}
         autoplay={{
-          delay: 1,
+          delay: 0,
           disableOnInteraction: false,
         }}
-        speed={4000}
-        breakpoints={{
-          320: { slidesPerView: 2 },
-          480: { slidesPerView: 3 },
-          768: { slidesPerView: 4 },
-          1024: { slidesPerView: 7 },
-        }}
       >
-        {techLogos.map((logo, index) => (
+        {[...techLogos, ...techLogos].map((logo, index) => (
           <SwiperSlide key={index}>
             <a href={logo.url} target="_blank" rel="noopener noreferrer">
               <div className="tech-logo-wrapper">
