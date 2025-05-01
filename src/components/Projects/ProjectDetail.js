@@ -20,17 +20,17 @@ export default function ProjectDetail() {
 
   return (
     <section className="project-detail">
-      <div className="detail-header" data-aos="fade-up">
+      <div className="detail-header">
         <h1>{project.title}</h1>
         <p className="subtitle">{project.subtitle}</p>
         <img
           src={project.image}
           alt={project.title}
-          className="project-image"
+          className="main-project-image"
         />
       </div>
 
-      <div className="detail-body" data-aos="fade-up">
+      <div className="detail-body">
         <p className="description">{project.description}</p>
 
         <h3>Key Features</h3>
@@ -40,15 +40,36 @@ export default function ProjectDetail() {
           ))}
         </ul>
 
-        <h3>Tech Stack</h3>
-        <div className="tech-tags">
-          {project.tech.map((tech, index) => (
-            <div key={index} className="tech-badge">
-              <img src={tech.logo} alt={tech.name} className="tech-logo" />
-              <span>{tech.name}</span>
+        {project.tech && (
+          <>
+            <h3>Tech Stack</h3>
+            <div className="tech-tags">
+              {project.tech.map((tech, index) => (
+                <div key={index} className="tech-badge">
+                  <img src={tech.logo} alt={tech.name} className="tech-logo" />
+                  <span>{tech.name}</span>
+                </div>
+              ))}
             </div>
-          ))}
-        </div>
+          </>
+        )}
+
+        {Array.isArray(project.screenshots) &&
+          project.screenshots.length > 0 && (
+            <div className="screenshots-section">
+              <h3>Screenshots</h3>
+              <div className="screenshot-gallery">
+                {project.screenshots.map((src, index) => (
+                  <img
+                    key={index}
+                    src={src}
+                    alt={`Screenshot ${index + 1}`}
+                    className="gallery-image"
+                  />
+                ))}
+              </div>
+            </div>
+          )}
 
         <div className="project-links">
           {project.link && (

@@ -41,12 +41,32 @@
       { "name": "Swiper.js", "logo": "/assets/techLogos/swiperjs.png" }
     ],
     "image": "/assets/rent-storage-preview.png",
-    "screenshots": [
-      "/assets/rent-storage-1.jpg",
-      "/assets/rent-storage-2.jpg",
-      "/assets/rent-storage-3.jpg"
-    ],
+    "screenshots": [],
     "link": "https://rentstorage.pt",
     "github": "https://github.com/diogocaeiro02/rentStorageWeb"
+  },
+  {
+    "id": "degustacao-alentejana",
+    "title": "Degustação Alentejana",
+    "subtitle": "Website for Catering & Events Business",
+    "description": "A clean and responsive website built for Degustação Alentejana, a traditional catering service based in Alentejo. The site reflects the brand’s rustic identity, showcases its services and events, and provides visitors with a clear understanding of the company’s offerings.",
+    "features": [
+      "Responsive layout optimized for mobile and desktop",
+      "Fixed navigation bar with centered logo and side links",
+      "Hero section with background image, title, and slogan",
+      "About section with descriptive text and overlapping images",
+      "Animated service cards with hover effects",
+      "Organized image gallery with interactive hover styling",
+      "Glossy effect on navbar when scrolling"
+    ],
+    "tech": [
+      { "name": "HTML5", "logo": "/assets/techLogos/html.png" },
+      { "name": "CSS3", "logo": "/assets/techLogos/css.png" },
+      { "name": "JavaScript", "logo": "/assets/techLogos/javascript.png" }
+    ],
+    "image": "/assets/degustacao-alentejana-preview.png",
+    "screenshots": [],
+    "link": "https://degustacaoalentejana.pt",
+    "github": "https://github.com/diogocaeiro02/degustacaoAlentejana"
   }
 ]
