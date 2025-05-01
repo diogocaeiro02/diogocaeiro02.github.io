@@ -1,32 +1,70 @@
 import React from "react";
-import { useParams, useNavigate } from "react-router-dom";
+import { useParams, Link } from "react-router-dom";
 import projectsData from "../../data/projects.json";
 import "./ProjectDetail.css";
 
 export default function ProjectDetail() {
   const { id } = useParams();
-  const navigate = useNavigate();
-
   const project = projectsData.find((p) => p.id === id);
 
   if (!project) {
-    return <p>Project not found</p>;
+    return (
+      <section className="project-detail">
+        <h2>Project not found</h2>
+        <Link to="/" className="back-btn">
+          ← Back to Projects
+        </Link>
+      </section>
+    );
   }
 
   return (
     <section className="project-detail">
-      <div className="project-detail-container">
-        <button className="back-btn" onClick={() => navigate(-1)}>
-          ← Back to Projects
-        </button>
-
+      <div className="detail-header" data-aos="fade-up">
+        <h1>{project.title}</h1>
+        <p className="subtitle">{project.subtitle}</p>
         <img
           src={project.image}
           alt={project.title}
-          className="project-detail-image"
+          className="project-image"
         />
-        <h2>{project.title}</h2>
-        <p>{project.details}</p>
+      </div>
+
+      <div className="detail-body" data-aos="fade-up">
+        <p className="description">{project.description}</p>
+
+        <h3>Key Features</h3>
+        <ul className="features">
+          {project.features.map((feature, idx) => (
+            <li key={idx}> {feature}</li>
+          ))}
+        </ul>
+
+        <h3>Tech Stack</h3>
+        <div className="tech-tags">
+          {project.tech.map((tech, index) => (
+            <div key={index} className="tech-badge">
+              <img src={tech.logo} alt={tech.name} className="tech-logo" />
+              <span>{tech.name}</span>
+            </div>
+          ))}
+        </div>
+
+        <div className="project-links">
+          {project.link && (
+            <a href={project.link} target="_blank" rel="noopener noreferrer">
+              🌐 View Live
+            </a>
+          )}
+          {project.github && (
+            <a href={project.github} target="_blank" rel="noopener noreferrer">
+              💻 GitHub Repo
+            </a>
+          )}
+          <Link to="/" className="back-btn">
+            ← Back to Projects
+          </Link>
+        </div>
       </div>
     </section>
   );

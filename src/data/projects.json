@@ -1,23 +1,52 @@
 [
   {
-    "id": "blockchain-social",
-    "title": "Blockchain Social Media",
-    "description": "A decentralized social media platform on Ethereum blockchain.",
-    "image": "/assets/blockchain-social.png",
-    "details": "Full explanation about the tech stack, challenges and results."
+    "id": "blockpro",
+    "title": "BlockPro",
+    "subtitle": "Decentralized Social Media",
+    "description": "BlockPro is a Web3 social media app where users publish posts on the Ethereum blockchain. It was built to explore censorship-resistant platforms and user-owned content.",
+    "features": [
+      "Ethereum blockchain smart contracts using Solidity and Hardhat",
+      "Frontend built with React and styled for a futuristic UI",
+      "Integrated MetaMask authentication",
+      "Posts stored and fetched from the blockchain using Ethers.js"
+    ],
+    "tech": [
+      { "name": "React", "logo": "/assets/techLogos/react.png" },
+      { "name": "Hardhat", "logo": "/assets/techLogos/hardhat.png" },
+      { "name": "Solidity", "logo": "/assets/techLogos/solidity.png" },
+      { "name": "Node.js", "logo": "/assets/techLogos/nodejs.png" }
+    ],
+    "image": "/assets/blockpro-preview.png",
+    "screenshots": ["/assets/blockpro-1.jpg"],
+    "link": "https://blockpro-live.vercel.app",
+    "github": "https://github.com/diogocaeiro02/blockpro"
   },
   {
-    "id": "rent-storage-website",
-    "title": "Rent Storage Website",
-    "description": "A modern static website for a storage rental service, built for a real client.",
+    "id": "rent-storage",
+    "title": "Rent Storage",
+    "subtitle": "Website for Storage Rental Business",
+    "description": "A modern and responsive website developed for Rent Storage, a real-world storage rental service operating in Amora and Arrentela. The site showcases the business, highlights its benefits, and allows potential customers to learn more and get in touch.",
+    "features": [
+      "Responsive design optimized for mobile and desktop",
+      "Modern hero section with call-to-action and custom branding",
+      "Image gallery with lightbox functionality",
+      "Client testimonials carousel using Swiper.js",
+      "Animated hamburger menu with smooth transitions",
+      "Custom contact section and modern footer with icons"
+    ],
+    "tech": [
+      { "name": "HTML5", "logo": "/assets/techLogos/html.png" },
+      { "name": "CSS3", "logo": "/assets/techLogos/css.png" },
+      { "name": "JavaScript", "logo": "/assets/techLogos/javascript.png" },
+      { "name": "Swiper.js", "logo": "/assets/techLogos/swiperjs.png" }
+    ],
     "image": "/assets/rent-storage-preview.png",
-    "details": "Tech: HTML, CSS, JavaScript. Responsive layout with mobile-first design, interactive gallery, lightbox, testimonials carousel, and custom UI enhancements."
-  },
-  {
-    "id": "catering-website",
-    "title": "Catering Website",
-    "description": "A modern static website for a storage rental service, built for Degustação Alentejana.",
-    "image": "/assets/rent-storage-preview.png",
-    "details": "Tech: HTML, CSS, JavaScript. Responsive layout with mobile-first design, interactive gallery, lightbox, testimonials carousel, and custom UI enhancements."
+    "screenshots": [
+      "/assets/rent-storage-1.jpg",
+      "/assets/rent-storage-2.jpg",
+      "/assets/rent-storage-3.jpg"
+    ],
+    "link": "https://rentstorage.pt",
+    "github": "https://github.com/diogocaeiro02/rentStorageWeb"
   }
 ]
