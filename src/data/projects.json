@@ -64,7 +64,7 @@
       { "name": "CSS3", "logo": "/assets/techLogos/css.png" },
       { "name": "JavaScript", "logo": "/assets/techLogos/javascript.png" }
     ],
-    "image": "/assets/degustacao-alentejana-preview.png",
+    "image": "/assets/degustacao-preview.png",
     "screenshots": [],
     "link": "https://degustacaoalentejana.pt",
     "github": "https://github.com/diogocaeiro02/degustacaoAlentejana"

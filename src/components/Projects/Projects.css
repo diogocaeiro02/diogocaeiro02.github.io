@@ -22,7 +22,7 @@
 }
 
 .project-slide {
-  width: 320px !important;
+  width: 300px !important;
 }
 
 .project-card {
@@ -132,4 +132,10 @@
 
 .btn-more:hover {
   background-color: #333;
+}
+
+@media (max-width: 768px) {
+  .projects-section {
+    padding: 6rem 0rem;
+  }
 }
