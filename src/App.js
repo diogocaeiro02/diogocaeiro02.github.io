@@ -7,6 +7,8 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 import { useEffect } from "react";
 
+import { Analytics } from "@vercel/analytics/react";
+
 // Components
 import NavBar from "./components/NavBar/Navbar";
 import Hero from "./components/Hero/Hero";
@@ -50,6 +52,7 @@ function App() {
       </Routes>
 
       <Footer />
+      <Analytics />
     </Router>
   );
 }
