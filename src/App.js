@@ -44,7 +44,16 @@ function App() {
   return (
     <Router>
       <NavBar />
-      <ToastContainer position="bottom-right" autoClose={3000} />
+      <ToastContainer
+        position="bottom-right"
+        autoClose={3000}
+        hideProgressBar={false}
+        closeOnClick
+        pauseOnFocusLoss
+        draggable
+        pauseOnHover
+        theme="dark"
+      />
       <Routes>
         <Route path="/" element={<HomePage />} />
         <Route path="/projects/:id" element={<ProjectDetail />} />

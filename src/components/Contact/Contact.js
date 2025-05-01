@@ -25,13 +25,21 @@ export default function Contact() {
         process.env.REACT_APP_EMAILJS_PUBLIC_KEY
       )
       .then(() => {
-        toast.success("🚀 Message sent!");
+        toast.success(
+          <span>
+            <strong>Sent!</strong> I'll get back to you soon. 🚀
+          </span>
+        );
         setForm({ name: "", email: "", message: "" });
         setErrors({});
       })
       .catch((error) => {
         console.error("EmailJS error:", error);
-        toast.error("❌ Failed to send message. Try again.");
+        toast.error(
+          <span>
+            <strong>Error:</strong> Could not send. 😔
+          </span>
+        );
       });
   };
 
