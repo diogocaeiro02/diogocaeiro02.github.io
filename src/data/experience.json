@@ -3,7 +3,7 @@
     "company": "Sunderland AFC",
     "location": "United Kingdom",
     "title": "Supervisor",
-    "date": "Oct 2021 – Present",
+    "date": "Oct 2021 – Oct 2024",
     "tasks": [
       "Oversee bar operations and ensure smooth service",
       "Manage inventory and minimize waste",
@@ -13,27 +13,44 @@
     ]
   },
   {
-    "company": "Degustação Alentejana",
-    "location": "Portugal",
-    "title": "Worker",
-    "date": "Jul 2017 – Present",
+    "company": "University of Sunderland",
+    "location": "Sunderland, United Kingdom",
+    "title": "BSc (Hons) Computer Science",
+    "date": "Sep 2020 – Jul 2024",
     "tasks": [
-      "Evaluate product stock quality",
-      "Ensure a clean and hygienic kitchen",
-      "Sanitize and organize utensils",
-      "Follow instructions to ensure service efficiency",
-      "Receive and store supplies"
+      "Studied core subjects such as software development, databases, networking, and web technologies",
+      "Developed academic and personal projects including a Web3 social platform (BlockPro)",
+      "Collaborated on group assignments and presentations using Git and Agile methodologies",
+      "Completed a final year dissertation with a focus on decentralized applications",
+      "Gained experience in both frontend and backend technologies"
     ]
   },
   {
     "company": "VirtualNauta, LDA",
-    "location": "Portugal",
+    "location": "Setubal, Portugal",
     "title": "Intern Developer",
-    "date": "May 2020 – Jun 2020",
+    "date": "Mar 2020 – Jul 2020",
     "tasks": [
-      "Developed Python and VB.NET applications",
-      "Created web scraping tools with Selenium",
-      "Built systems connected to SQL databases"
+      "Developed and maintained Python-based applications",
+      "Wrote clean, efficient, and well-documented code for various software features",
+      "Debugged and resolved issues in existing codebases to ensure smooth functionality",
+      "Collaborated with team members using remote communication and version control tools",
+      "Implemented new features based on project requirements and feedback",
+      "Strengthened problem-solving and independent coding skills in a virtual environment"
+    ]
+  },
+  {
+    "company": "VirtualNauta, LDA",
+    "location": "Setubal, Portugal",
+    "title": "Intern Developer",
+    "date": "Feb 2019 – Apr 2019",
+    "tasks": [
+      "Developed desktop applications using VB.NET in a collaborative team setting",
+      "Troubleshot and debugged existing code to improve performance and stability",
+      "Contributed to the full software development lifecycle, from design to deployment",
+      "Applied object-oriented programming principles in real-world scenarios",
+      "Improved problem-solving skills through hands-on coding and technical challenges",
+      "Participated in code reviews and received mentorship from experienced developers"
     ]
   }
 ]
