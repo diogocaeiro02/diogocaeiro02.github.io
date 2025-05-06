@@ -68,5 +68,30 @@
     "screenshots": [],
     "link": "https://degustacaoalentejana.pt",
     "github": "https://github.com/diogocaeiro02/degustacaoAlentejana"
+  },
+  {
+    "id": "alma-dvide",
+    "title": "Alma d'Vide",
+    "subtitle": "Website for Local Accommodation in Cabeço de Vide",
+    "description": "A modern and inviting website created for Alma d'Vide, a local accommodation business in Cabeço de Vide. The site reflects the rustic charm of the Alentejo region, offers information about the houses, and allows potential guests to easily explore availability and book stays.",
+    "features": [
+      "Responsive layout optimized for mobile and desktop",
+      "Fixed navigation bar with centered logo and intuitive links",
+      "Hero section with background image, welcoming title, and unique tagline",
+      "About section highlighting the local charm and history of Cabeço de Vide",
+      "Accommodation section showcasing detailed information and beautiful imagery of the houses",
+      "Booking system integration for easy reservation management",
+      "Interactive map to explore the surroundings of Cabeço de Vide",
+      "Contact form for direct communication with guests"
+    ],
+    "tech": [
+      { "name": "HTML5", "logo": "/assets/techLogos/html.png" },
+      { "name": "CSS3", "logo": "/assets/techLogos/css.png" },
+      { "name": "JavaScript", "logo": "/assets/techLogos/javascript.png" }
+    ],
+    "image": "/assets/alma-dvide-preview.png",
+    "screenshots": [],
+    "link": "https://almadvide.pt",
+    "github": "https://github.com/diogocaeiro02/almaDvide"
   }
 ]
