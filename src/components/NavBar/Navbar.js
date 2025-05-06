@@ -3,6 +3,7 @@ import "./Navbar.css";
 
 export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
+  const toggleMenu = () => setIsOpen((prev) => !prev);
 
   return (
     <header className="navbar">
@@ -30,11 +31,11 @@ export default function Navbar() {
 
         <button
           className={`burger ${isOpen ? "open" : ""}`}
-          onClick={() => setIsOpen(!isOpen)}
+          onClick={toggleMenu}
         >
-          <span className="bg1"></span>
-          <span className="bg2"></span>
-          <span className="bg3"></span>
+          <span className="bar"></span>
+          <span className="bar"></span>
+          <span className="bar"></span>
         </button>
       </div>
     </header>
