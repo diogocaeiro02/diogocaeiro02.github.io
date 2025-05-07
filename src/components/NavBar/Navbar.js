@@ -3,7 +3,6 @@ import "./Navbar.css";
 
 export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
-  const toggleMenu = () => setIsOpen((prev) => !prev);
 
   return (
     <header className="navbar">
@@ -31,7 +30,7 @@ export default function Navbar() {
 
         <button
           className={`burger ${isOpen ? "open" : ""}`}
-          onClick={toggleMenu}
+          onClick={() => setIsOpen(!isOpen)}
         >
           <span className="bar"></span>
           <span className="bar"></span>
