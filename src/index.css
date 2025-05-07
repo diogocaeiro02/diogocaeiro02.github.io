@@ -43,13 +43,18 @@ img {
   display: block;
 }
 
-/* Scrollbar */
+/* ===== Scrollbar Customization ===== */
 ::-webkit-scrollbar {
   width: 8px;
 }
+
+::-webkit-scrollbar-track {
+  background: #2c5364;
+}
+
 ::-webkit-scrollbar-thumb {
-  background-color: #00d2ff;
-  border-radius: 4px;
+  background: #00d2ff;
+  border-radius: 5px;
 }
 
 /* ===== Root App Element ===== */

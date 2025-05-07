@@ -10,9 +10,11 @@ html {
 }
 
 body {
+  background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
   font-family: "Poppins", sans-serif;
   color: #fff;
   line-height: 1.6;
+  isolation: isolate;
 }
 
 /* ===== Container Utility ===== */
@@ -69,20 +71,6 @@ section {
   padding: 6rem 2rem;
   margin: 0;
   background: transparent;
-}
-
-/* ===== Scrollbar Customization ===== */
-::-webkit-scrollbar {
-  width: 10px;
-}
-
-::-webkit-scrollbar-track {
-  background: #1a1a1a;
-}
-
-::-webkit-scrollbar-thumb {
-  background: #00d2ff;
-  border-radius: 5px;
 }
 
 /* ===== Responsive Typography ===== */
