@@ -1,29 +1,35 @@
+[![Website](https://img.shields.io/website?url=https%3A%2F%2Fdiogocaeiro.pt)](https://diogocaeiro.pt)
+[![GitHub last commit](https://img.shields.io/github/last-commit/diogocaeiro02/diogocaeiro02.github.io)](https://github.com/diogocaeiro02/diogocaeiro02.github.io)
+[![GitHub repo size](https://img.shields.io/github/repo-size/diogocaeiro02/diogocaeiro02.github.io)](https://github.com/diogocaeiro02/diogocaeiro02.github.io)
+
 # 💻 Diogo Caeiro – Developer Portfolio
 
-Welcome to my personal developer portfolio built with React. This project showcases my skills, projects, and experience as a blockchain developer, designer, and tech enthusiast. It’s designed to be fast, responsive, and modern — with a touch of futuristic style. 🌐✨
-
-## 🚀 Live Site
-
-🔗 [https://diogocaeiro.pt](https://diogocaeiro.pt)
+> Welcome to my personal developer portfolio built with React. This project showcases my skills, projects, and experience as a blockchain developer, designer, and tech enthusiast. It’s designed to be fast, responsive, and modern — with a touch of futuristic style. 🌐✨
 
 ---
 
 ## 📸 Preview
 
-![Portfolio Preview](public/assets/preview2.png)
+![Website Preview](public/assets/preview2.png)
+
+--- 
+
+## 🌐 Live Site
+
+🔗 [View Website](https://diogocaeiro.pt)
 
 ---
 
 ## 🛠️ Built With
 
-- ⚛️ React (Create React App)
-- 📦 EmailJS – Contact form integration
-- 🍞 React Toastify – Notifications
-- 🧭 React Router – Routing
-- 🎨 CSS3 with custom animations
-- 🌀 Framer Motion & AOS (optional effects)
-- 📦 Vercel – Deployment
-- ✨ Custom SEO/Open Graph meta tags
+- ⚛️ **React** (Create React App)
+- 📦 **EmailJS** – Contact form integration
+- 🍞 **React** Toastify – Notifications
+- 🧭 **React** Router – Routing
+- 🎨 **CSS3** with custom animations
+- 🌀 **Framer** Motion & AOS (optional effects)
+- 📦 **Vercel** – Deployment
+- ✨ **Custom** SEO/Open Graph meta tags
 
 ---
 
@@ -85,6 +91,8 @@ REACT_APP_EMAILJS_PUBLIC_KEY=your_public_key
 npm start
 ```
 
+---
+
 ### ✉️ Contact Form via EmailJS
 
 This project uses EmailJS to handle messages from the contact form.
@@ -92,6 +100,8 @@ This project uses EmailJS to handle messages from the contact form.
 ✅ No backend needed
 📨 Email is sent to your inbox using their SDK
 📂 Config is safely stored in .env
+
+---
 
 ### 🌐 SEO Optimized
 
@@ -102,6 +112,8 @@ Open Graph and Twitter Cards
 Canonical URL
 
 Mobile-first design
+
+---
 
 ### 📦 Deployment
 
@@ -119,10 +131,14 @@ For SPA behavior and 404 fallback:
 
 ```
 
+---
+
 ## 🛠️ Credits
 
 - Developed by [Diogo Caeiro](https://diogocaeiro.pt)
 - SwiperJS used under MIT License.
+
+---
 
 ### 📄 License
 
