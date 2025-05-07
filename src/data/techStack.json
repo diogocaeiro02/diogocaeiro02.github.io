@@ -45,7 +45,7 @@
     "url": "https://getbootstrap.com"
   },
   {
-    "src": "./assets/techLogos/python.png",
+    "src": "./assets/techLogos/python.webp",
     "alt": "Python",
     "url": "https://www.python.org/"
   },
@@ -55,8 +55,18 @@
     "url": " https://soliditylang.org/"
   },
   {
-    "src": "./assets/techLogos/hardhat.png",
+    "src": "./assets/techLogos/hardhat.webp",
     "alt": "Hardhat",
     "url": "https://hardhat.org/"
+  },
+  {
+    "src": "./assets/techLogos/ethers.png",
+    "alt": "Ethers",
+    "url": "https://docs.ethers.org/v5/"
+  },
+  {
+    "src": "./assets/techLogos/tailwind.png",
+    "alt": "Tailwind",
+    "url": "https://tailwindcss.com/"
   }
 ]
