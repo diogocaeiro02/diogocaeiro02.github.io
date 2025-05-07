@@ -35,7 +35,7 @@ export default function About() {
         {/* Right Side */}
         <div className="about-right" data-aos="fade-right">
           <p>
-            I'm a passionate Blockchain Developer, Designer, and Tech
+            I'm a Aspiring Blockchain Developer, with taste in Design, and Tech
             Enthusiast. I thrive on building innovative digital experiences that
             blend functionality and style. Constantly learning, constantly
             creating.
