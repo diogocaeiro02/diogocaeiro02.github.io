@@ -12,7 +12,7 @@
     ],
     "tech": [
       { "name": "React", "logo": "/assets/techLogos/react.png" },
-      { "name": "Hardhat", "logo": "/assets/techLogos/hardhat.png" },
+      { "name": "Hardhat", "logo": "/assets/techLogos/hardhat.webp" },
       { "name": "Solidity", "logo": "/assets/techLogos/solidity.png" },
       { "name": "Node.js", "logo": "/assets/techLogos/nodejs.png" }
     ],
